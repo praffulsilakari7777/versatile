@@ -19,6 +19,7 @@
   .user-item a:hover,
   .user-item a:active {
     background: #ffd900;
+    background-image: url('https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-1.2.1&w=1000&q=80');
   }
   
   .user-item__content {

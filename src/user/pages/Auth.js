@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 
 import Card from '../../shared/components/UIElements/Card';
 import Input from '../../shared/components/FormElements/Input';
 import Button from '../../shared/components/FormElements/Button';
 import { VALIDATOR_EMAIL, VALIDATOR_MINLENGTH, VALIDATOR_REQUIRE } from '../../shared/util/validators';
 import { useForm } from '../../shared/hooks/form-hook';
-
+import { AuthContext } from '../../shared/context/auth-context';
 
 import './Auth.css';
 
 const Auth = () => {
+    const auth = useContext(AuthContext);
    const [isLoginMode, setIsLoginMode] = useState(true);
 
     const [formState, inputHandler, setFormData]  = useForm({
@@ -48,10 +49,12 @@ const Auth = () => {
     const authSubmitHandler = event => {
         event.preventDefault();
          console.log(formState.inputs);
+         auth.login();
     };
 
 
-    return (<Card className="authentication">
+    return (
+    <Card className="authentication">
         <h2>Login Required</h2>
         <hr />
         <form onSubmit={authSubmitHandler}>
@@ -94,7 +97,9 @@ const Auth = () => {
 
         </form>
         <Button inverse onClick={switchModeHandler}>SWITCH TO {isLoginMode ? 'SIGNUP' : 'LOGIN'}</Button>
-        </Card>)
+        </Card>
+       
+        )
 };
 
 export default Auth;

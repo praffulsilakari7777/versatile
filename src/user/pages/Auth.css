@@ -6,10 +6,23 @@
   .authentication {
     width: 90%;
     max-width: 25rem;
-    margin: 7rem auto;
+    margin: 5rem auto;
     text-align: center;
   }
   
   .authentication form {
     margin-bottom: 1rem;
   }
+
+
+  .authentication1 {
+    width: 45%;
+    max-width: 15rem;
+    margin: 5rem auto;
+    text-align: center;
+    margin-left: 35.8rem;
+    height: 5rem;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQY8xYeJ0g9vNLBNDUMbVif_9f_vcgZ9Z_fpQ&usqp=CAU');
+  }
+
+ 

@@ -41,6 +41,8 @@
   
   .place-item__modal-actions {
     text-align: right;
+    margin: 0.5rem;
+
   }
   
   .place-item__actions button,

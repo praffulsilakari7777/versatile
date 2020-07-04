@@ -7,7 +7,7 @@ const Users = () => {
         {
             id: 'u1', 
             name: 'Chapter 4', 
-            image: 'https://image.freepik.com/free-vector/triangular-dark-polygonal-background_23-2148261453.jpg', 
+            image: 'https://www.deccanherald.com/sites/dh/files/article_images/2013/06/25/340882.gif', 
             places: 9
         },
         {

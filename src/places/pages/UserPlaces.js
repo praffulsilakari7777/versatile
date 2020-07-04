@@ -27,6 +27,30 @@ const DUMMY_PLACES = [
             lng: -73.9878584
         },
         creator: 'u2'
+    },
+    {
+        id: 'p2',
+        title: 'Empire State Building',
+        description: 'One of the most famous sky scrapers in the world!',
+        imageUrl: 'https://cdn.hasselblad.com/hasselblad-com/6cb604081ef3086569319ddb5adcae66298a28c5_x1d-ii-sample-01-web.jpg?auto=format&q=97',
+        address: 'Chinar Royal Complex, E 1/136, Arera Colony',
+        location: {
+            lat: 40.7484405,
+            lng: -73.9878584
+        },
+        creator: 'u1'
+    },
+    {
+        id: 'p2',
+        title: 'Empire State Building',
+        description: 'One of the most famous sky scrapers in the world!',
+        imageUrl: 'https://cdn.hasselblad.com/hasselblad-com/6cb604081ef3086569319ddb5adcae66298a28c5_x1d-ii-sample-01-web.jpg?auto=format&q=97',
+        address: 'Chinar Royal Complex, E 1/136, Arera Colony',
+        location: {
+            lat: 40.7484405,
+            lng: -73.9878584
+        },
+        creator: 'u2'
     }
 ];
 

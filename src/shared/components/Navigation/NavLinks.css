@@ -26,10 +26,11 @@
   .nav-links a:hover,
   .nav-links a:active,
   .nav-links a.active {
-    background: #2B9CFB;
-    border-color: #2B9CFB;
+    background: #cbced1;
+    border-color: #fcfeff;
     color: #000000;
     border-radius: 0.8vh;
+    font-family: 'Roboto', sans-serif;
   }
   
   .nav-links button {
